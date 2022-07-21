@@ -27,6 +27,12 @@ YAJLINC = /usr/include/yajl
 
 #KVMLIB = -lkvm
 
+# yajl
+YAJLLIBS = -lyajl
+YAJLINC = /usr/include/yajl
+
+#KVMLIB = -lkvm
+
 # includes and libs
 INCS = -I${X11INC} -I${FREETYPEINC} -I${YAJLINC}
 LIBS = -L${X11LIB} -lX11 ${XINERAMALIBS} ${FREETYPELIBS} ${YAJLLIBS} -lX11-xcb -lxcb -lxcb-res ${KVMLIB}

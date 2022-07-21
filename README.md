@@ -19,6 +19,7 @@ git clone https://github.com/Clusterfonk/dwm
 cd dwm
 sudo make install
 ```
+<<<<<<< HEAD
 
 ```
 git remote add upstream https://git.suckless.org/dwm
