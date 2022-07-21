@@ -1,5 +1,5 @@
 # Customized dwm build
-Personal configuration of [dwm](https://dwm.suckless.org/)
+Configuration of [dwm](https://dwm.suckless.org/)
 
 ## Patches and Features
 - [actual fullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
@@ -13,17 +13,23 @@ Personal configuration of [dwm](https://dwm.suckless.org/)
 - [restartsig](https://dwm.suckless.org/patches/restartsig/)
 - [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 
+## Requirements
+?
+
 ## Install
 ```bash
 git clone https://github.com/Clusterfonk/dwm
 cd dwm
 sudo make install
 ```
-<<<<<<< HEAD
 
-```
+## Maintain
+New updates are pulled from the upstream
+```bash
 git remote add upstream https://git.suckless.org/dwm
+git pull upstream master
 ```
-
-## Maintaining
-Customizations are rebased on top of the upstream updates
+Then the branch custom is rebased on top of the master
+```bash
+git rebase master
+```
